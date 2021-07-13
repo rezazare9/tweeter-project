@@ -1,4 +1,5 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
+// import { Opacity } from '@material-ui/icons';
 
 const useStyles = makeStyles({
     root :{
@@ -6,21 +7,23 @@ const useStyles = makeStyles({
         height:'100vh',
         width:'100%',
         overflow:'hidden'
-
+        
     },
-    rightSidebar:{
-        backgroundColor:'#BDC3C7',
-        width:'18%'
-    },
+    
     leftSidebar:{ 
-        backgroundColor:'#BDC3C7',
+        backgroundColor:'white',
         width:'25%'
     },
     mainPart:{ 
-        backgroundColor:'#BDC3C7',
+        backgroundColor:'white',
         flex:1
     },
-    
+    divider:{
+        height:'100%',
+        width: 1,
+        backgroundColor: "#7EBAFF !important",
+        filter: "opacity(0.5)"
+    },
   });
 
   export default useStyles;
