@@ -8,14 +8,14 @@ const useStyles = makeStyles(theme=>({
         padding:'1.5rem 1rem'
     },
     logoType:{
-        fontSize:'1.25rem',
-        fontWeight:600,
+        fontSize:'1.25rem !important',
+        fontWeight:"600 !important",
         marginRight:'1rem',
         color: theme.palette.primary.main
     },
     hashtagTitle:{
-        fontSize:'1.1rem',
-        fontWeight:600,
+        fontSize:'1.1rem !important',
+        fontWeight:"600 !important",
         marginTop : '3rem',
         marginBottom : '1.5rem'
     },
