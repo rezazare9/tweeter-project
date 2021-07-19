@@ -1,10 +1,10 @@
 import { makeStyles } from '@material-ui/styles';
 
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme =>({
     root:{
         backgroundColor:'#e6e6e6',
-        flex:1
+        
     },
     header:{
         padding: 18,
@@ -26,9 +26,18 @@ const useStyles = makeStyles({
         display:'flex',
         flexDirection:'column'
     },
+    tweetItem:{
+        padding: 18,
+        backgroundColor:'white',
+        display:'flex',
+        flexDirection:'column',
+        marginTop:'0.5rem'
+    },
     input:{
         marginRight:'1rem',
         border:'none',
+        overflowY:'auto',
+        maxHeight:'60px',
         flex:1,
         "&:focus":{
             outline : 'unset',
@@ -44,17 +53,37 @@ const useStyles = makeStyles({
         minWidth:'5rem'
     },
     newTweetImg:{
-        // border:'1px solid #333',
-        // padding:'0.2rem',
-        // borderRadius:'50%',
+        borderRadius:'50%',
+        padding:'0.1rem !important'
+        // border:'0.5px solid #3337',
         // marginLeft:'1rem'
     },
     newTweetImgBtn:{
-        border:'1px solid #333',
-        padding:'0.2rem',
         borderRadius:'50%',
+        padding:'0.2rem !important',
+        border:'0.5px solid #3337',
         marginLeft:'1rem'
+    },
+    tweetItemName:{
+       
+        fontWeight:600,
+      
+    },
+    tweetItemId:{
+        fontSize:'0.9rem',
+        color: theme.palette.text.hint,
+        marginRight:'0.5rem',
+        paddingTop:'0.1rem'
+    },
+    tweetText:{
+        fontSize:'0.9rem',
+        marginTop:'0.75rem'
+    },
+    likeCount:{
+        fontSize:'0.8rem',
+        color: theme.palette.text.hint,
+        marginLeft:'0.5rem'
     }
-})
+}));
 
 export default useStyles;

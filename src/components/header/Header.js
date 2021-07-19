@@ -1,15 +1,15 @@
 import React from 'react';
-import HomeIcon from '@material-ui/icons/Home';
+// import HomeIcon from '@material-ui/icons/Home';
 import Typography  from '@material-ui/core/Typography';
-import useStyle from '../styles';
+import useStyle from './styles';
 
-const Header = () => {
+const Header = ({title,icon}) => {
     const classes = useStyle();
     return (
         <div className={classes.header}>
-            <HomeIcon/>
+           {icon}
             <Typography className={classes.headerTitle}>
-            خانه
+            {title}
             </Typography>
         </div>
     );

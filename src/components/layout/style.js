@@ -24,6 +24,11 @@ const useStyles = makeStyles({
         backgroundColor: "#7EBAFF !important",
         filter: "opacity(0.5)"
     },
+    content:{
+        flex:1,
+        overflowY:'auto',
+        backgroundColor:'white'
+    }
   });
 
   export default useStyles;

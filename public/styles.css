@@ -3,3 +3,8 @@ body{
     direction: rtl;
     /* text-align: center; */
 } 
+
+.editable:empty:before{
+    content: attr(data-placeholder);
+    color: #999999;
+}

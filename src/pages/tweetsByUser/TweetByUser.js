@@ -1,11 +1,9 @@
 import React from 'react';
-import useStyle from './styles';
+import useStyle from '../home/styles.js';
 import Header from '../../components/header/Header';
 import Divider  from '@material-ui/core/Divider';
-import NewTweet from './components/NewTweet';
-import TweetList from './components/TweetList';
-import HomeIcon from '@material-ui/icons/Home';
-
+import TweetList from '../home/components/TweetList';
+import PersonIcon from '@material-ui/icons/Person';
 
 const tweets = [
     {
@@ -83,16 +81,16 @@ const tweets = [
 ]
 
 
-const Home = () => {
+const TweetByUser = () => {
     const classes = useStyle();
     return (
         <div className={classes.root}>
-            <Header title={"خانه"} icon={<HomeIcon/>}/>
+            <Header title={"محمد رضا زارع"} icon={<PersonIcon/>}/>
             <Divider className={classes.divider}/>
-            <NewTweet/>
             <TweetList data={tweets}/>
         </div>
     );
 };
 
-export default Home;
+
+export default TweetByUser;

@@ -17,6 +17,9 @@ const hashTags = [
 ]
 
 const RightSidebar = () => {
+    // const onPostClick=()=>{
+    //     props.history.push("/posts")
+    // }
 
     const classes = useStyles();
     return ( 
