@@ -1,0 +1,143 @@
+{
+  "tweets": [
+    {
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 5
+    },
+    {
+      "sender": {
+        "name": "سیامک کوه دره",
+        "id": "@koooooh",
+        "img": "/images/koooh_user.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 57
+    },
+    {
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 2
+    },
+    {
+      "sender": {
+        "name": "سیامک کوه دره",
+        "id": "@koooooh",
+        "img": "/images/koooh_user.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 0
+    },
+    {
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 59
+    },
+    {
+      "sender": {
+        "name": "سیامک کوه دره",
+        "id": "@koooooh",
+        "img": "/images/koooh_user.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 8
+    },
+    {
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 29
+    },
+    {
+      "sender": {
+        "name": "سیامک کوه دره",
+        "id": "@koooooh",
+        "img": "/images/koooh_user.png"
+      },
+      "text": "بهترین وعده غذایی با اختلاف زیادی صبحانست چون ممکن نیست برای #صبحانه کسی #کرفس درست کنه",
+      "likes": 31
+    },
+    {
+      "id": 21,
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "reza zare test button",
+      "likes": 5
+    },
+    {
+      "id": 13,
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "#توییت شماره دوم جهت ثبت در دیتا بیس #جیسون",
+      "likes": 5
+    },
+    {
+      "id": 18,
+      "sender": {
+        "name": "Samsung",
+        "id": "@Samsung",
+        "img": "/images/samsung.png"
+      },
+      "text": "توییت جدید با ساختار جدید #ماژولار",
+      "likes": 5
+    }
+  ],
+  "hashTags": [
+    "پرچم_دار_جدید",
+    "کرونا_ویروس",
+    "سامسونگ",
+    "هلو_سامر",
+    "پرچم_دار_جدید",
+    "کرونا_ویروس",
+    "سامسونگ",
+    "هلو_سامر"
+  ],
+  "users": [
+    {
+      "name": "Xiaomi",
+      "id": "@Xiaomi",
+      "img": "/images/xiaomi.png"
+    },
+    {
+      "name": "Samsung",
+      "id": "@Samsung",
+      "img": "/images/samsung.png"
+    },
+    {
+      "name": "بیل گیتس",
+      "id": "@BillGates",
+      "img": "/images/bil.png"
+    },
+    {
+      "name": "مایک بای",
+      "id": "@Mike_IMC",
+      "img": "/images/mike.png"
+    },
+    {
+      "name": "شرلی ونگ!",
+      "id": "@Shirley_IMC",
+      "img": "/images/shily.png"
+    }
+  ]
+}

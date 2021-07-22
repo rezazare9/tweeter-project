@@ -31,7 +31,7 @@ const Tweet = ({data}) => {
         </Grid>
         <Grid container direction={"row-reverse"} style={{marginTop:16 , alignItems:'center'}} >
         <IconButton className={classes.newTweetImgBtn}>
-            <img src={"images/retweet.png"} alt={"tweetpic"}  className={classes.newTweetImg}/>
+            <img src={"/images/retweet.png"} alt={"tweetpic"}  className={classes.newTweetImg}/>
             </IconButton>
             <IconButton className={classes.newTweetImgBtn}>
                 <FavoriteIcon/>

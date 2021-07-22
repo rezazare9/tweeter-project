@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/styles';
 const useStyles = makeStyles(theme=>({
     root :{
         backgroundColor:'white',
-        width:'25%',
+        width:'20%',
         padding:'1.5rem 2rem'
     },
     profText:{

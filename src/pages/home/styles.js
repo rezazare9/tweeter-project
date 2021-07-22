@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/styles';
+import  {makeStyles}  from '@material-ui/styles';
 
 
 const useStyles = makeStyles(theme =>({
@@ -44,13 +44,13 @@ const useStyles = makeStyles(theme =>({
         }
     },
     newTweetBtn:{
-        color:'white',
-        borderRadius:'1rem',
-        minHeight:'30px',
-        height:'30px',
-        fontFamily:'shabnam',
-        lineHeight:'1rem',
-        minWidth:'5rem'
+        color:'white !important',
+        borderRadius:'1rem !important',
+        minHeight:'30px !important',
+        height:'30px !important',
+        fontFamily:'shabnam !important',
+        lineHeight:'1rem !important',
+        minWidth:'5rem !important'
     },
     newTweetImg:{
         borderRadius:'50%',

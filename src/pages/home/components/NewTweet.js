@@ -3,40 +3,54 @@ import  Grid  from '@material-ui/core/Grid';
 import React from 'react';
 import useStyles from '../styles';
 import classnames from 'classnames';
+// import axios from 'axios';
+import { newTweetRequest } from '../../../api/api_tweet';
 
 
 const NewTweet = () => {
-
-    // const input = React.useRef();
-
     // const [tweet,setTweet] = React.useState();
-
-    // const renderTweet =(text)=>{
-    //     return {__html: text.replace(/#\S+/g,"<span style='color:cornflowerblue; text-decoration: none;'>$&</span>")} 
-    //  }
-
+    
     // React.useEffect(()=>{
-    //     input.current.addEventListener("input", function(e) {
-    //         // console.log("input event fired",e.target.innerText);
-    //         setTweet(renderTweet(e.target.innerText))
-    //         window.cursorManager.setEndOfContenteditable(e.target);
-    //     }, false);
-    // },[])
+        // input.current.addEventListener("input", function(e) {
+            //     console.log("input event fired",e.target.innerText);
+            // }, false);
+            // },[])
+    const input = React.useRef();
+    const newTweetClick=()=>{
+        const tweetText = input.current.innerText;
+        if(!tweetText)
+        return;
+        const data = {
+            id:Math.floor(Math.random()*100),
+            "sender":{
+                "name":"Samsung",
+                "id":"@Samsung",
+                "img":"/images/samsung.png"
+            },
+            "text":tweetText,
+            "likes" : 5
+        }
 
+       newTweetRequest(data,(isOk)=>{
+            if(!isOk)
+            return alert("not send !")
+            alert("message send")
+       })
+    }
     const classes = useStyles();
     return (
         <div className={classes.newTweet}>
             <Grid container>
-            <img src={"images/user img.png"} alt={"user"} style={{width:'max-content',borderRadius:'50%'}}/>
+            <img src={"/images/user img.png"} alt={"user"} style={{width:'max-content',borderRadius:'50%'}}/>
             <div contentEditable className={classnames(classes.input,"editable")} data-placeholder="توییت کن .." 
-            // ref={input} 
+            ref={input} 
             // dangerouslySetInnerHTML={tweet}
-            ></div>
+            />
             </Grid>
             <Grid container direction={"row-reverse"} style={{marginTop:16}}>
-                <Button variant={"contained"} color={"primary"}  className={classes.newTweetBtn}>توییت</Button>
+                <Button variant={"contained"} color={"primary"}  className={classes.newTweetBtn} onClick={newTweetClick}>توییت</Button>
                 <IconButton className={classes.newTweetImgBtn}>
-                <img src={"images/tweetpic.png"} alt={"tweetpic"}  className={classes.newTweetImg}/>
+                <img src={"/images/tweetpic.png"} alt={"tweetpic"}  className={classes.newTweetImg}/>
 
                 </IconButton>
             </Grid>
