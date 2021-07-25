@@ -1,9 +1,9 @@
-import {createTheme} from '@material-ui/core/styles';
+import {ThemeProvider} from '@material-ui/core/styles';
 import tinycolor from "tinycolor2";
 
 const colorPrimary = "#5ea9dd";
 
-const Theme = createTheme({
+const Theme = ThemeProvider({
     palette:{
         primary:{
             main : colorPrimary,
@@ -15,7 +15,17 @@ const Theme = createTheme({
             root:{
                 fontFamily:"shabnam !important"
             }
-        }
+        },
+        MuiListItem:{
+            button:{
+                fontFamily:"shabnam !important"
+            }
+        },
+        MuiButton:{
+            label:{
+                fontFamily:"shabnam !important"
+            }
+        },
     }
 })
 

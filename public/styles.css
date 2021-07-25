@@ -16,3 +16,7 @@ a{
 a:visited{
     color: unset;
 }
+
+.uni_mbsmall{
+    margin-bottom: 1rem;
+}

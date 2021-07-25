@@ -7,6 +7,8 @@ import TweetList from './components/TweetList';
 import HomeIcon from '@material-ui/icons/Home';
 // import axios from 'axios';
 import { getAllTweets } from '../../api/api_tweet';
+import Test from './components/Test';
+import Search from './components/Search';
 
 
 const Home = () => {
@@ -26,10 +28,12 @@ const Home = () => {
 
     return (
         <div className={classes.root}>
+            <Search/>
             <Header title={"خانه"} icon={<HomeIcon/>}/>
             <Divider className={classes.divider}/>
             <NewTweet/>
             <TweetList data={tweets}/>
+            <Test/>
         </div>
     );
 };
